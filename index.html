@@ -6,19 +6,29 @@
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0a1929;color:#fff;margin:0;padding:40px 24px;line-height:1.5}
 .wrap{max-width:720px;margin:0 auto}
-h1{font-size:28px;margin:0 0 8px}
-.sub{color:#8fa5bf;margin-bottom:32px}
+h1{font-size:28px;margin:0 0 8px;font-family:Georgia,serif}
+.sub{color:#8fa5bf;margin-bottom:32px;font-size:15px}
 .card{display:block;padding:24px;border:1.5px solid rgba(88,162,213,0.25);border-radius:14px;margin-bottom:16px;text-decoration:none;color:#fff;background:rgba(255,255,255,0.03);transition:all .2s ease}
 .card:hover{border-color:#009c7d;background:rgba(0,156,125,0.08);transform:translateY(-2px)}
-.card h2{font-size:20px;margin:0 0 6px}
+.card h2{font-size:20px;margin:0 0 6px;font-family:Georgia,serif}
 .card p{color:#8fa5bf;margin:0;font-size:14px}
 .tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:#009c7d;margin-bottom:8px}
-.footer{margin-top:48px;color:#5a7590;font-size:12px}
+.new{background:#ff9b3d;color:#0a1929;padding:2px 8px;border-radius:3px;margin-left:6px}
+.footer{margin-top:48px;color:#5a7590;font-size:12px;border-top:1px solid rgba(88,162,213,0.15);padding-top:20px}
+.footer p{margin:4px 0}
 </style>
 </head><body><div class="wrap">
 <h1>GenoPalate — Quiz Prototypes</h1>
-<p class="sub">Interactive previews. Click through all 3 variants (Short Sell / Diagnostic / Personality). 2026-04-13.</p>
-<a href="./v1-site-redirect.html" class="card"><span class="tag">v1 · Site Redirect</span><h2>Quiz → Personalized Profile → genopalate.com</h2><p>Quiz qualifies lead + captures email, result page shows personalized nutrition profile, single CTA redirects to the right product on genopalate.com with UTM + quiz answer params.</p></a>
-<a href="./v2-site-redirect.html" class="card"><span class="tag">v2 · Site Redirect (copy)</span><h2>Same architecture — staged for modifications</h2><p>Current copy is identical to v1. Will be re-built as an alternate variant per client direction.</p></a>
-<p class="footer">Built by Viktor (landing page builder) · CRO brief by Diana · Copy by Leo · Strategy by Sophia</p>
+<p class="sub">Interactive previews. Each file has a tab switcher — try all 3 quiz variants (Short Sell 5Q / Diagnostic 7Q / Personality 6Q). Mobile-friendly. Updated 2026-04-14.</p>
+
+<a href="./v3-email-redirect.html" class="card"><span class="tag">v3 · Email Redirect<span class="new">NEW</span></span><h2>Quiz → Email/Phone capture → genopalate.com/pages/select-dna-source</h2><p>Pure lead-gen funnel. After the quiz, user enters email (+ optional phone on Diagnostic variant), then gets redirected straight to the DNA source selection page on genopalate.com. All quiz answers passed as URL params for personalization + retargeting. No result page inside the quiz.</p></a>
+
+<a href="./v1-site-redirect.html" class="card"><span class="tag">v1 · Product Redirect</span><h2>Quiz → Personalized Profile → Specific product on genopalate.com</h2><p>Quiz qualifies the lead, result page shows a personalized nutrition profile with 3 key insights + matched testimonial, then a single CTA redirects to the right product (DNA Upload / DNA Kit / Coaching / Premium) with UTM + quiz answer params pre-attached.</p></a>
+
+<a href="./v2-site-redirect.html" class="card"><span class="tag">v2 · Product Redirect (staging)</span><h2>Same architecture as v1 — staged for design iterations</h2><p>Identical to v1 right now. Use this file for future copy / visual variations without touching v1.</p></a>
+
+<p class="footer">
+<p>Built by Viktor (LP builder) · CRO brief by Diana · VOC + strategy by Sophia · Copy by Leo · Competitor intel by Kai</p>
+<p>Full deliverables in Google Drive: <code>Genopalate/Team Deliverables/</code></p>
+</p>
 </div></body></html>
